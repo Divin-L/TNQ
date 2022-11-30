@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: goldenrod;
+}
+#mainBlock{
+    width: 50%;
+    height: 100vh;
+  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#mainBlock aside textarea{
+    padding: 5px;
+    width: 90%;
+    height: inherit;
+    background-color: gold;
+    border-radius: 20px 0px;
+    color: black;
+}
+button{
+    background-color: goldenrod;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
